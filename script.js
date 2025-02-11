@@ -9,16 +9,16 @@ function getKeys(obj) {
 
 console.log(getKeys(student)); 
 
-// const studentWithMultipleProperties = {
-//   name: "Alice",
-//   age: 22,
-//   city: "Tokyo",
-// };
+const studentWithMultipleProperties = {
+  name: "Alice",
+  age: 22,
+  city: "Tokyo",
+};
 
-// const studentWithOneProperty = {
-//   name: "Bob",
-// };
+const studentWithOneProperty = {
+  name: "Bob",
+};
 
-// console.log(getKeys(studentWithMultipleProperties)); 
+console.log(getKeys(studentWithMultipleProperties)); 
 
-// console.log(getKeys(studentWithOneProperty));
+console.log(getKeys(studentWithOneProperty));
