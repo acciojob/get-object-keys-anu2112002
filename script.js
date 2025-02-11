@@ -1,7 +1,5 @@
-function Student(name, age, city){
-	this.name = name;
-	this.age = age;
-	this.city = city;
+const student = {
+	name: "John",
 }
 
 function getKeys(obj){
